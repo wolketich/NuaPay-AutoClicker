@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Background Auto Clicker",
+    "description": "Automatically clicks the extendSessionLink button every minute in the background.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
