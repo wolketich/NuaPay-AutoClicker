@@ -1,16 +1,23 @@
 {
-    "manifest_version": 3,
-    "name": "Background Auto Clicker",
-    "description": "Automatically clicks the extendSessionLink button every minute in the background.",
-    "version": "1.0",
-    "permissions": [
-      "activeTab",
-      "scripting"
-    ],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "host_permissions": [
-      "<all_urls>"
-    ]
-  }
+  "manifest_version": 3,
+  "name": "Background Auto Clicker",
+  "description": "Automatically clicks the extendSessionLink button every minute in the background.",
+  "version": "0.99",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
