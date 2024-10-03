@@ -18,6 +18,5 @@ setInterval(() => {
     if (button) {
       button.click();
       console.log("Button clicked by extension");
-      alert("Button clicked by extension");
     }
   }
